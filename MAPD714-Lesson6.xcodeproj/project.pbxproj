@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2543FD751F8ED7F90004FD20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543FD741F8ED7F90004FD20 /* AppDelegate.swift */; };
+		2543FD771F8ED7F90004FD20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543FD761F8ED7F90004FD20 /* ViewController.swift */; };
+		2543FD7A1F8ED7F90004FD20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2543FD781F8ED7F90004FD20 /* Main.storyboard */; };
+		2543FD7C1F8ED7F90004FD20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2543FD7B1F8ED7F90004FD20 /* Assets.xcassets */; };
+		2543FD7F1F8ED7F90004FD20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2543FD7D1F8ED7F90004FD20 /* LaunchScreen.storyboard */; };
+		2543FD911F8EE01B0004FD20 /* DatepickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543FD901F8EE01B0004FD20 /* DatepickerViewController.swift */; };
+		2543FD931F8EE02E0004FD20 /* SinglecomponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543FD921F8EE02E0004FD20 /* SinglecomponentViewController.swift */; };
+		2543FD951F8EE0480004FD20 /* DoublecomponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543FD941F8EE0480004FD20 /* DoublecomponentViewController.swift */; };
+		2543FD971F8EE05C0004FD20 /* DependentcomponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543FD961F8EE05C0004FD20 /* DependentcomponentViewController.swift */; };
+		2543FD991F8EE0720004FD20 /* CustompickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543FD981F8EE0720004FD20 /* CustompickerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2543FD711F8ED7F90004FD20 /* MAPD714-Lesson6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD714-Lesson6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2543FD741F8ED7F90004FD20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2543FD761F8ED7F90004FD20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2543FD791F8ED7F90004FD20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2543FD7B1F8ED7F90004FD20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2543FD7E1F8ED7F90004FD20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2543FD801F8ED7F90004FD20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2543FD901F8EE01B0004FD20 /* DatepickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatepickerViewController.swift; sourceTree = "<group>"; };
+		2543FD921F8EE02E0004FD20 /* SinglecomponentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglecomponentViewController.swift; sourceTree = "<group>"; };
+		2543FD941F8EE0480004FD20 /* DoublecomponentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublecomponentViewController.swift; sourceTree = "<group>"; };
+		2543FD961F8EE05C0004FD20 /* DependentcomponentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependentcomponentViewController.swift; sourceTree = "<group>"; };
+		2543FD981F8EE0720004FD20 /* CustompickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustompickerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2543FD6E1F8ED7F90004FD20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2543FD681F8ED7F90004FD20 = {
+			isa = PBXGroup;
+			children = (
+				2543FD731F8ED7F90004FD20 /* MAPD714-Lesson6 */,
+				2543FD721F8ED7F90004FD20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2543FD721F8ED7F90004FD20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2543FD711F8ED7F90004FD20 /* MAPD714-Lesson6.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2543FD731F8ED7F90004FD20 /* MAPD714-Lesson6 */ = {
+			isa = PBXGroup;
+			children = (
+				2543FD741F8ED7F90004FD20 /* AppDelegate.swift */,
+				2543FD761F8ED7F90004FD20 /* ViewController.swift */,
+				2543FD781F8ED7F90004FD20 /* Main.storyboard */,
+				2543FD7B1F8ED7F90004FD20 /* Assets.xcassets */,
+				2543FD7D1F8ED7F90004FD20 /* LaunchScreen.storyboard */,
+				2543FD801F8ED7F90004FD20 /* Info.plist */,
+				2543FD901F8EE01B0004FD20 /* DatepickerViewController.swift */,
+				2543FD921F8EE02E0004FD20 /* SinglecomponentViewController.swift */,
+				2543FD941F8EE0480004FD20 /* DoublecomponentViewController.swift */,
+				2543FD961F8EE05C0004FD20 /* DependentcomponentViewController.swift */,
+				2543FD981F8EE0720004FD20 /* CustompickerViewController.swift */,
+			);
+			path = "MAPD714-Lesson6";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2543FD701F8ED7F90004FD20 /* MAPD714-Lesson6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2543FD831F8ED7F90004FD20 /* Build configuration list for PBXNativeTarget "MAPD714-Lesson6" */;
+			buildPhases = (
+				2543FD6D1F8ED7F90004FD20 /* Sources */,
+				2543FD6E1F8ED7F90004FD20 /* Frameworks */,
+				2543FD6F1F8ED7F90004FD20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MAPD714-Lesson6";
+			productName = "MAPD714-Lesson6";
+			productReference = 2543FD711F8ED7F90004FD20 /* MAPD714-Lesson6.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2543FD691F8ED7F90004FD20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Centennial College";
+				TargetAttributes = {
+					2543FD701F8ED7F90004FD20 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2543FD6C1F8ED7F90004FD20 /* Build configuration list for PBXProject "MAPD714-Lesson6" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2543FD681F8ED7F90004FD20;
+			productRefGroup = 2543FD721F8ED7F90004FD20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2543FD701F8ED7F90004FD20 /* MAPD714-Lesson6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2543FD6F1F8ED7F90004FD20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2543FD7F1F8ED7F90004FD20 /* LaunchScreen.storyboard in Resources */,
+				2543FD7C1F8ED7F90004FD20 /* Assets.xcassets in Resources */,
+				2543FD7A1F8ED7F90004FD20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2543FD6D1F8ED7F90004FD20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2543FD951F8EE0480004FD20 /* DoublecomponentViewController.swift in Sources */,
+				2543FD771F8ED7F90004FD20 /* ViewController.swift in Sources */,
+				2543FD991F8EE0720004FD20 /* CustompickerViewController.swift in Sources */,
+				2543FD971F8EE05C0004FD20 /* DependentcomponentViewController.swift in Sources */,
+				2543FD911F8EE01B0004FD20 /* DatepickerViewController.swift in Sources */,
+				2543FD931F8EE02E0004FD20 /* SinglecomponentViewController.swift in Sources */,
+				2543FD751F8ED7F90004FD20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2543FD781F8ED7F90004FD20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2543FD791F8ED7F90004FD20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2543FD7D1F8ED7F90004FD20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2543FD7E1F8ED7F90004FD20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2543FD811F8ED7F90004FD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2543FD821F8ED7F90004FD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2543FD841F8ED7F90004FD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BULHRS882;
+				INFOPLIST_FILE = "MAPD714-Lesson6/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.centennialcollege.MAPD714-Lesson6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2543FD851F8ED7F90004FD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BULHRS882;
+				INFOPLIST_FILE = "MAPD714-Lesson6/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.centennialcollege.MAPD714-Lesson6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2543FD6C1F8ED7F90004FD20 /* Build configuration list for PBXProject "MAPD714-Lesson6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2543FD811F8ED7F90004FD20 /* Debug */,
+				2543FD821F8ED7F90004FD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2543FD831F8ED7F90004FD20 /* Build configuration list for PBXNativeTarget "MAPD714-Lesson6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2543FD841F8ED7F90004FD20 /* Debug */,
+				2543FD851F8ED7F90004FD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2543FD691F8ED7F90004FD20 /* Project object */;
+}
